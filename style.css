@@ -1,0 +1,177 @@
+
+.grid-container-header {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+}
+
+.grid-container-menu {
+  display: grid;
+  grid-template-rows: 400px;
+  margin: 15px 0 15px 0;
+  background-color: #999999;
+  color: rgba(80,80,80,0.6);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container-footer {
+ display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.itemHeader1, .itemHeader2, .itemHeader3, .itemHeader4, .itemHeader5 {
+  border-right: solid #999999 2px;
+  display: grid;
+}
+ .itemHeader1, .itemHeader2, .itemHeader3, .itemHeader4, .itemHeader5, .itemHeader6 {
+   display: inline;
+ }
+
+ .procent {
+   font-weight: bold;
+   font-size: 8px;
+ }
+
+ .number {
+
+   font-weight: bold;
+ }
+
+ .text {
+
+   font-size: 10px;
+   font-weight: bold;
+   color: #888888;
+ }
+
+.red-color-font {
+  color: red;
+}
+
+.yellow-color-font {
+  color:  gold;
+}
+
+.grid-element-cont {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+
+}
+
+.textForTable {
+    font-size: 15px;
+   color: #888888;
+}
+
+.borderBot {
+  border-bottom: solid 2px #888888;
+  font-size: 12px;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+  text-indent: 3px;
+}
+
+.grid-element-three-table {
+ display: grid;
+  grid-template: 1fr 1fr / repeat(4,1fr);
+}
+
+.fontRed {
+  color: red;
+}
+
+.fontGreen {
+  color: greenyellow;
+}
+
+.fontGray {
+ color: #888888;
+}
+
+.nameTheTable {
+  font-size: 14px;
+}
+
+.cut {
+  white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.pinkCircle {
+  background: #bb077f;
+  border-radius: 50%;
+  color: #fff;
+  height: 0.5em;
+  position: relative;
+  top: 7px;
+  left: 0.8px;
+  width: 0.5em;
+}
+
+.pinkEmpCircle {
+  border: #bb077f solid 2px;
+  border-radius: 50%;
+  color: #fff;
+  height: 0.6em;
+  position: relative;
+  top: 7px;
+  left: 0.8px;
+  width: 0.6em;
+}
+
+.yellowCircle {
+  background: #bb8418;
+  border-radius: 50%;
+  color: #fff;
+  height: 0.5em;
+  position: relative;
+  top: 7px;
+  left: 0.8px;
+  width: 0.5em;
+}
+
+.yellowEmpCircle {
+  border: #bb8418 solid 2px;
+  border-radius: 50%;
+  color: #fff;
+  height: 0.6em;
+  position: relative;
+  top: 7px;
+  left: 0.8px;
+  width: 0.6em;
+}
+
+.greenCircle {
+  background: greenyellow;
+  border-radius: 50%;
+  color: #fff;
+  height: 0.5em;
+  position: relative;
+  top: 7px;
+  left: 0.8px;
+  width: 0.5em;
+}
+
+.greenEmpCircle {
+  border: greenyellow solid 2px;
+  border-radius: 50%;
+  color: #fff;
+  height: 0.6em;
+  position: relative;
+  top: 7px;
+  left: 0.8px;
+  width: 0.6em;
+}
